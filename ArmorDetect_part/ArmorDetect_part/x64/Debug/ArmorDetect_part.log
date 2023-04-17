@@ -1,0 +1,156 @@
+﻿  ArmorDetector.cpp
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.hpp(116,37): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.hpp(117,38): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(77,82): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(79,82): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(187,85): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(187,73): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(280,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(280,28): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(281,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(596,85): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(596,56): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(598,85): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(598,56): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(600,85): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(600,56): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(602,85): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(602,56): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(604,85): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(604,56): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(634,98): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(634,55): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(635,104): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(635,58): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(671,47): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(675,49): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(688,30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(694,27): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(695,47): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(701,58): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(706,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(732,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(733,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(735,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(736,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(738,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(739,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(741,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\Visual Studio\OpenCV\ArmorDetect_part\ArmorDetect_part\ArmorDetector.cpp(742,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  ArmorDetect_part.vcxproj -> D:\Visual Studio\OpenCV\ArmorDetect_part\x64\Debug\ArmorDetect_part.exe

@@ -1,0 +1,73 @@
+#.hpp
+No.1--SpinTrack.h
+	L46. 类型'deque'  存储目标Armor信息
+	func:
+	 *SpinTracker(); bool update_tracker();
+*No.2--DNN_detect.h
+	static:
+	L16. type of 'Net'  读取Net 
+	func:
+	 *net_forward();img_processing();
+No.3--robot_state.h
+	class robot的属性_state
+No.4--ArmorDetector.hpp
+	struct SRC{时间戳--区分不同帧}
+	struct Light:RotatedRect{ 构造函数得属性 }
+	-----------------------------------------
+	//主类：
+	class ArmorDetector : robot_state{
+	func:
+		Armor autoAim();//将最终目标坐标转换成摄像头大小的
+		private:
+			height_sort(); return h1>h2
+			makeRectSafe(); == bool isempty
+			L140. !! dnn_detect();??
+			... ... ...
+	//信值评分机制
+	... ... ...
+	
+}
+## cpp
+No.1--SpinTracker.cpp
+	调用SpinTracker::SpinTracker() 得'history_info' ( push_back(src) );
+	bool update_tracker();  用于update数据 若size小于max_len,push_back新armor，else pop掉第一个数据再添加new_armor.  return true.
+
+
+No.2--ArmorDetector.cpp
+	构造函数赋初值。 setImage()预处理; bool isLight() 根据条件判断; findLights(){
+	少于两个--error clear return;
+	//迭代器遍历
+	L.167 for(auto& contour : contours) {}
+};
+	machLights(){
+	//L.233 lambda表达式(传入两个RotatedRect) 将RotatedRect 从左到右排序
+};
+	//23.4.12.18:23 还差6个函数
+
+	316.目标选择`chooseTarget()`	参考装甲板按高度排序 清空映射器 遍历得到每个装甲板的id和type -- 筛选(信值小于阈值)并归类；<int,SpinTracker>哈希表 id存在返回1 else返回0；第一次检测到-创建新的预测器并插入map，用于后续跟踪及更新，若装甲板类型预测器已存在-测距离-是否匹配-创建新的Tracker，候选装甲板评分选择best-记录下标及分数score；维护预测器-遍历预测器，超出阈值则erase；改：创建vector<int>(5,0)-记录五种类型类型的数量，迭代器遍历tracker_info，统计各类型数量；遍历new_armors_cnt_map，找等效的下标；在循环体外部，如果同时存在 new_tracker 和 last_tracker，则表明存在两个状态相邻但时间戳不同的追踪器，视为可能出现的转动行为，计算水平方向中心差值spin_movement>10 ->旋转，检查相同追踪器键值i在map中的旋转得分；updatSpinScore()；判断是否旋转，排序；宏定义画外接矩形。
+	556.autoAim(src,时间戳)  
+	620.conTain()：//判断灯条match_rect是否与当前灯条属于同一装甲板；有一个点在矩形区域内就认为该灯条属于该装甲板
+	640.armorGrade():评分--按id优先级  长宽比打分--BIG和SMALL两个标准；最大装甲板打分：以固定标准值做参照，用面积为标准，按比例打分；图像中心和角度；--乘系数比例调节
+	715.detectNum();数字检测 Armor对象四个点存储Point2f pp 数组中 ，经过计算(一定比例位移）通过 getPerspectiveTransform 函数得到一个透视变换矩阵 matrix_per，将数字切割出来变形为dst；dnn_detect()将属性储存Armor.id中
+	751.updateSpinScore():一系列标准计算旋转分数，更新数据后return true
+
+No.3 dnn_detect(): 类 DNN_detect，基于深度学习网络对数字图片进行识别
+read_net() 读取 ONNX 格式深度学习网络，返回 dnn::Net 类型对象
+
+img_processing() 原始图片预处理，将其转化为神经网络可以处理的 blob 灰度化 尺寸转换 归一化
+
+net_forward():前向传播 先前生成的 blob 作为输入数据 调用 forward() 获取网络输出  softmax 输出结果归一化得到概率分布 选出概率最大的值 返回其对应的数字标签和信值  id 和 confidence 分识别出的数字标签和信值
+
+
+
+
+
+
+
+--------------------------------------------------------------
+
+测试
+定位bug位置 复现；新功能，找bug，电控联调   
+黑he白he
+预测 实时跟踪--转换坐标系--吊射--识别陀螺--大符 --`yolo`
+`啥都会一点的研究生`
